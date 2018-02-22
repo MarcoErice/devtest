@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "add9536a-ce12-4b0f-8efa-0e9981936d82",
+  "alias": "DevtestWebPartWebPart",
+  "componentType": "WebPart",
+  
+  "version": "*",
+  "manifestVersion": 2,
+  
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Devtest WebPart" },
+    "description": { "default": "Devtest WebPart description" },    
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "title": "Devtest WebPart",
+      "description": "For testing stuff...",
+      "showDate": true
+    }
+  }]
+}
